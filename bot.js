@@ -1,6 +1,6 @@
 require("./utils/editOrReply");
 const { Telegraf, Markup } = require('telegraf');
-const bot = new Telegraf('6446840444:AAF4IoDssBH4iRKk_V-ZRxmrXEFX_AcfDRI')
+const bot = new Telegraf('')
 
 if (bot === undefined) {
   throw new Error('Токена не существует!')
